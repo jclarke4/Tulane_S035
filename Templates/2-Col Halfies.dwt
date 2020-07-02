@@ -8,7 +8,7 @@
 	<meta name="description" content="Tulane DW Master Course Template">
 	<meta name="theme-color" content="#225e50">
   
-  <title>Tulane DW Master Course Template</title>
+  <title>Revive.Survive.OverDose Prevention for Pharmacists</title>
 <!-- TU Experience PWA -->
  <link rel="manifest" href="../manifest.json">
 
@@ -37,8 +37,8 @@
 		  <div class="col-md-4 d-block mx-auto"><img class="img-fluid mx-auto" src="../images/TUR6Logo.png" width="160" height="100" alt="R6 Logo" />
 		  </div>
 			<div class="col-md-8 d-block mx-auto">
-			<p class="h1 course_long_name">@@(course_long_name)@@ </p>
-		     <p class=" h2 lead course_name_subheading">@@(course_name_subheading)@@</p>
+			<p class="h1 course_long_name">Revive. Survive. OverDose Prevention</p>
+		     <p class=" h2 lead course_name_subheading">For Pharmacists</p>
 		  </div>
 	    </div>
 			
@@ -391,7 +391,7 @@
 	</div>
 </div>
 </div>
-		 <footer > <img class="img-fluid w-50" src="../images/msdh-logo-horizontal.png" alt="MSDH Logo" /></footer>
+		 <footer > <img class="img-fluid w-50" src="../images/OHL Logo.png" alt="OHL Logo" /></footer>
 <!--- END FOOTER --> 
     </div>
 	 
