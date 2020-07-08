@@ -13,13 +13,13 @@
  <link rel="manifest" href="../manifest.json">
 
 <!-- Bootstrap -->
-  <link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
-<!-- Custom CSS-->
+  <!-- <link href="../css/bootstrap-4.3.1.css" rel="stylesheet"> -->
+  <link href="../css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+  <!-- Custom CSS-->
   <link href="../css/custom.css" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
-  <!-- TemplateBeginEditable name="head" -->
-  <!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 <!-- START TEMPLATE PARAMETERS -->
   <!-- TemplateParam name="course_long_name" type="text" value="Revive. Survive. OverDose Prevention" -->
   <!-- TemplateParam name="course_name_subheading" type="text" value="for Pharmacists" -->
@@ -29,7 +29,7 @@
   </head>
   <body>
 
-    <div class="container-fluid">
+  <div class="container-fluid">
 		
 <!--- START COURSE HEADING -->
 		
@@ -145,7 +145,7 @@
 			  <nav aria-label="breadcrumb">
 			    <ol class="breadcrumb animated fadeInLeftBig delay-3s">
 			      <li class="breadcrumb-item"><a id="parentpage_breadcrumb"><!-- TemplateBeginEditable name="lesson_name" -->ADD LESSON NAME<!-- TemplateEndEditable --></a></li>
-			      <li class="breadcrumb-item"><a id="currentpage_breadcrumb"><!-- TemplateBeginEditable name="topic_title" -->ADD TOPIC TTLE <!-- TemplateEndEditable --></a></li>
+			      <li class="breadcrumb-item"><a id="currentpage_breadcrumb"><!-- TemplateBeginEditable name="topic_title" -->ADD TOPIC TITLE <!-- TemplateEndEditable --></a></li>
 			      <li class="breadcrumb-item active" aria-current="page"><!-- TemplateBeginEditable name="page_number" -->ADD PAGE NUMBER<!-- TemplateEndEditable --></li>
 		        </ol>
 	        </nav>
@@ -178,8 +178,8 @@
         <div class="col-md-12">
 
           <!-- TemplateBeginEditable name="Main Content" -->
-		  <h1> Introduction to Medical Needs Sheltering </h1>
-		  <!-- TemplateEndEditable --> 
+		  <h1> ADD MAIN CONTENT </h1>
+          <!-- TemplateEndEditable --> 
 		  </div>
 		</div>
   
@@ -389,7 +389,7 @@
 	</div>
 </div>
 </div>
-		 <footer > <img class="img-fluid w-50" src="../images/msdh-logo-horizontal.png" alt="MSDH Logo" /></footer>
+		 <footer > <img class="img-fluid w-50" src="../images/OHL Logo.png" alt="OHL Logo" /></footer>
 <!--- END FOOTER --> 
     </div>
 	 
@@ -398,12 +398,11 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
     <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap-4.3.1.js"></script>
-	
-	
-	<!-- Custom Pagination -->
+    <!-- <script src="../js/bootstrap-4.3.1.js"></script> -->
+    <script src="../js/bootstrap-4.4.1.js"></script>
+
+    <!-- Custom Pagination -->
 	<script type="module" src="../index.js"></script>
-	<script type="text/javascript" src="../js/promised-pagination.js"></script>
-	</div>
-  </body>
+	<script type="text/javascript" src="../js/promised-pagination.js"></script> </div>
+</body>
 </html>
