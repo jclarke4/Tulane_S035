@@ -1,0 +1,164 @@
+/* 
+  -----------------------------------
+  Omni Panel Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 01 - Tabbed
+  -----------------------------------
+*/
+
+.p7OPM-01.p7OPM {
+	padding: 0px;
+	border: 1px solid #000;
+}
+
+/*
+**********************************
+      PRIMARY COLOR RULES
+**********************************
+
+*/
+.p7OPM-01 .opm-tabs-wrapper {
+	background-color: #222;
+}
+.p7OPM-01 .opm-panel-wrapper {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.p7OPM-01 .opm-tabs-wrapper a {
+	padding: 12px 20px;
+}
+.p7OPM-01 .opm-tabs-wrapper a,
+.p7OPM-01 .opm-accordion-trig a {
+	background-color: #222;
+	color: #999;
+}
+.p7OPM-01 .opm-tabs-wrapper a:hover,
+.p7OPM-01 .opm-accordion-trig a:hover {
+	color: #DDD;
+}
+
+.p7OPM-01 .opm-tabs-wrapper a.open,
+.p7OPM-01 .opm-accordion-trig a.open {
+	color: #000;
+	background-color: #FFF;
+	position: relative;
+}
+
+/*
+**********************************************
+      Curret Tab Marker (character entity)
+**********************************************
+*/
+.p7OPM-01 .opm-tabs-wrapper a.open:before {
+	content: "\2713";
+}
+
+/*
+******************************************************
+     Colors for Accordion Mode (Phone View)
+	-By default, colors for all modes are the 
+	 same. Use the rules below if you would like
+	 to have different colors for accordion mode.
+******************************************************
+     EXCEPTION COLORS FOR ACCORDION (PHONE) MODE
+*/
+.p7OPM-01 .opm-accordion-trig a {}
+.p7OPM-01 .opm-accordion-trig a:hover {}
+
+.p7OPM-01 .opm-accordion-trig a.open {
+	background-color: #AAA;
+}
+.p7OPM-01 .opm-accordion-trig a.open {
+	font-weight: bold;
+}
+.p7OPM-01 .opm-accordion-trig {
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,0.95);
+}
+.p7OPM-01 .opm-accordion-trig a {
+	padding: 12px;
+	text-decoration: none;
+}
+
+
+/*
+*********************************
+      Panel Content Rules
+*********************************
+*/
+.p7OPM-01 .opm-panel-content {
+	padding: 20px 36px;
+}
+
+
+/*
+********************************
+    Content Utility Rules 
+********************************
+*/
+.opm-panel-content img.scalable-rounded {
+	border-radius: 5px;
+}
+.p7OPM-01 .blurb {
+	-webkit-transition: all ease 1.25s 0s;
+	transition: all ease 1.25s 0s;
+	-webkit-transform: translateX(90%);
+	transform: translateX(90%);
+	opacity: 0;
+	letter-spacing: .2em;
+}
+.p7OPM-01 .current-panel .blurb {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	opacity: 1;
+}
+
+/*
+*************************
+    Video-Map Rules
+*************************
+*/
+.opm-video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0px;
+	overflow: hidden;
+	margin: 0px !important;
+}
+.opm-video-wrapper iframe,
+.opm-video-wrapper object,
+.opm-video-wrapper embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+.opm-map-wrapper {
+	position: relative; 
+	padding-bottom: 100%; 
+	padding-top: 0px; 
+	height: 0px; 
+	overflow: hidden; 
+}
+.opm-map-wrapper iframe,
+.opm-map-wrapper object,
+.opm-map-wrapper embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.opm-video-wrapper iframe,
+.opm-map-wrapper iframe {
+	box-sizing: border-box;
+}
+.opm-video-wrapper img,
+.opm-map-wrapper img {
+	border-radius: 0px !important;
+}

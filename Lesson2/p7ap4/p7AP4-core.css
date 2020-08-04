@@ -1,0 +1,224 @@
+/* 
+  -----------------------------------
+  Accordion Panel Magic 4
+  by Project Seven Development
+  www.projectseven.com
+  Core CSS
+  -----------------------------------
+*/
+
+.p7AP4 {
+	margin: 0 auto;
+	width: auto;
+}
+.p7AP4cwrapper {
+	position: relative;
+}
+
+
+/*TRIGGERS AND TRIGGER LINKS*/
+
+.p7AP4trig {
+	margin: 0;
+}
+.p7AP4trig a {
+	display: block;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.p7AP4.ap4-animate .p7AP4trig a {
+	transition: all linear .3s;
+	-webkit-transition: all linear .3s;
+}
+.p7AP4trig h3, .p7AP4trig h4 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+a.p7AP4_ext, .p7AP4trig a.p7AP4_ext.current_mark {
+	background-image: url(../p7ap4/img/p7AP4_page_black.png) !important;
+}
+a.p7AP4_ext:hover, .p7AP4trig a.p7AP4_ext.current_mark:hover {
+	background-image: url(../p7ap4/img/p7AP4_page_white.png) !important;
+}
+
+
+
+
+/*TOOLBAR*/
+.ap4-responsive .ap4-toolbar {
+	display: none;
+}
+.p7AP4.ap4-rounded .ap4-toolbar {
+	border-radius: 5px;
+}
+.p7AP4.ap4-rounded .ap4-toolbar.opened {
+	margin-bottom: 10px;
+}
+.ap4-responsive .ap4-toolbar {display: none;}
+/*END TOOLBAR*/
+
+
+/* 
+  -----------------------------------
+  Content Column Structures
+  -----------------------------------
+*/
+
+/*Turn off Padding in existing AP3 content panels*/
+
+
+.p7AP4-col-wrapper {
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	display: -webkit-box;
+	display: flex;
+}
+
+.p7ap4-column {
+	list-style-type: none;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+.p7ap4-column img {
+	width: auto !important;
+	height: auto !important;
+	max-width: 100%;
+}
+
+.p7AP4panel.p7AP4-col-wrapper {
+	padding: 0px !important;
+}
+
+.border-left.p7ap4-content {
+	border-left: 1px dotted #000;
+}
+.border-right.p7ap4-content {
+	border-right: 1px dotted #000;
+}
+
+
+
+/*HEADINGS and PARAGRAPHS*/
+
+.p7ap4-content h1,
+.p7ap4-content h2,
+.p7ap4-content h3,
+.p7ap4-content h4 {
+	margin: 0px;
+}
+.p7ap4-content p {
+	margin: 6px 0;
+}
+
+
+/*Default content padding*/
+.p7ap4-content {
+	box-sizing: border-box;
+	padding: 20px 20px;
+}
+
+
+/*Various column widths*/
+.p7ap4-column {
+	flex-basis: 100%;
+}
+.p7ap4-column.width-25 {
+	flex-basis: 25%;
+}
+.p7ap4-column.width-33 {
+	flex-basis: 33%;
+}
+.p7ap4-column.width-50 {
+	flex-basis: 50%;
+}
+.p7ap4-column.width-75 {
+	flex-basis: 75%;
+}
+
+/*No Script Rules to Fix Dreamweaver Design View*/
+.ap4-noscript .p7ap4-column,
+.ap4-legacy .p7ap4-column {
+	float: left;
+	width: 100%;
+}
+.ap4-noscript .p7ap4-column.width-25,
+.ap4-legacy .p7ap4-column.width-25 {
+	width: 25%;
+}
+.ap4-noscript .p7ap4-column.width-33,
+.ap4-legacy .p7ap4-column.width-33 {
+	width: 33.333%;
+}
+.ap4-noscript .p7ap4-column.width-50,
+.ap4-legacy .p7ap4-column.width-50 {
+	width: 45%;
+}
+.ap4-noscript .p7ap4-column.width-75,
+.ap4-legacy .p7ap4-column.width-75 {
+	width: 75%;
+}
+/*Legacy Rules for IE8, 9, and 10*/
+.ap4-legacy {}
+.p7AP4-col-wrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.p7ap4-content {
+	height: 100%;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+.p7AP4 {
+	background-color: transparent !important;
+}
+.p7AP4.ap4-responsive .ap4-toolbar {
+	display: block;
+	padding: 0px 10px;
+	text-align: right;
+	cursor: pointer;
+}
+.p7AP4.ap4-responsive.ap4-rounded .ap4-toolbar {
+	margin-bottom: 10px;
+}
+.p7AP4.ap4-responsive .ap4-toolbar a {
+	font-size: 2em;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+.ap4-responsive .toggle-text a:before {
+	position: relative;
+	top: -.25em;
+}
+.p7AP4.ap4-responsive .toggle-text.closed a:before {
+	content: "Show Menu \0020";
+	font-size: .5em;
+}
+.p7AP4.ap4-responsive .toggle-text.opened a:before {
+	content: "Hide Menu \0020";
+	font-size: .5em;
+}
+.p7AP4root-wrapper.closed {
+	height: 0px;
+	overflow:hidden;	
+}
+.p7AP4root-wrapper.opened {
+	height: auto;
+	overflow: hidden;	
+}
+.p7AP4-col-wrapper, .p7ap4-column, .p7ap4-content {
+	width: auto !important;
+	display: block !important;
+	border: none !important;
+}
+
+}

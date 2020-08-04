@@ -1,0 +1,166 @@
+/* 
+  -----------------------------------
+  Accordion Panel Magic 4
+  by Project Seven Development
+  www.projectseven.com
+  Editable CSS Theme 01 (Gray)
+  -----------------------------------
+*/
+
+
+/*ROOT and CONTENT BACKGROUND COLORS and COLORS*/
+.p7AP4-01.p7AP4root-wrapper {
+	background-color: rgb(160,160,150);
+}
+.p7AP4-01.ap4-trig-space .p7AP4root-wrapper {
+	background-color: transparent;
+}
+/*Content Color*/
+.p7AP4-01.p7AP4content {
+	background-color: #FFF;
+	color: #000;
+}
+
+/*TRIGGERS and TRIGGER COLORS*/
+.p7AP4-01.p7AP4trig a,
+.p7AP4-01.p7AP4trig h3,
+.p7AP4-01.p7AP4trig h4 {
+	font-size: 100%;
+	line-height: 1.25;
+}
+a.p7AP4-01 {
+	padding: 15px 20px;
+}
+a.p7AP4-01 {
+	background-color: rgb(160,160,150);
+	color: #000;
+	background-image: url(../p7ap4/img/p7AP4_east_black.png);
+	box-shadow: inset 0px 4px 4px rgba(255,255,255,0.02);
+}
+a.p7AP4-01:hover {
+	background-color: #222;
+	color: #FFF;
+	background-image: url(../p7ap4/img/p7AP4_south_white.png);
+	box-shadow: inset 0px 28px 3px rgba(255,255,255,0.025);
+}
+a.p7AP4-01.ap4Trigs_down {
+	background-image: url(../p7ap4/img/p7AP4_south_white.png);
+	color: #FFF;
+	background-color: #666;
+}
+a.p7AP4-01.ap4Trigs_down:hover {
+	background-color: #666;
+	color: #FFF;
+}
+/*CURRENT MARK*/
+a.p7AP4-01.current_mark {
+	font-weight: bold;
+}
+
+/*EXTERNAL TRIGGER LINKS*/
+a.p7AP4-01.p7AP4_ext,
+a.p7AP4-01.p7AP4_ext.current_mark {
+	background-image: url(../p7ap4/img/p7AP4_page_black.png) !important;
+}
+a.p7AP4-01.p7AP4_ext:hover, 
+a.p7AP4-01.p7AP4_ext.current_mark:hover {
+	background-image: url(../p7ap4/img/p7AP4_page_white.png) !important;
+}
+
+
+/*BORDERS*/
+/*BORDER TREATMENTS*/
+/*CONTENT*/
+.p7AP4-01.ap4-panel-border .p7AP4-01.p7AP4content {
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+}
+.p7AP4-01.ap4-panel-border .p7AP4-01.p7AP4cwrapper.ap4last .p7AP4-01.p7AP4content,
+.p7AP4-01.ap4-panel-border .p7AP4-03.p7AP4cwrapper.ap4last .p7AP4-03.p7AP4content {
+	border-bottom: 1px solid #777;
+}
+.p7AP4-01.ap4-panel-border .p7AP4-04.p7AP4cwrapper.ap4last .p7AP4-04.p7AP4content {
+	border-bottom: none;
+}
+.p7AP4-01.ap4-panel-border .p7AP4-04.p7AP4content {
+	border-left: none;
+	border-right: none;
+}
+
+/*TRIGGER SPACE OPTION*/
+.p7AP4-01.ap4-trig-space a.p7AP4-01.ap4Trigs_down {
+	margin-bottom: 0px;
+}
+.p7AP4-01.ap4-trig-space a.p7AP4-01,
+.p7AP4-01.ap4-trig-space a.p7AP4-01.p7AP4_ext {
+	margin-bottom: 6px;
+}
+.p7AP4-01.ap4-trig-space.ap4-panel-border .p7AP4-01.p7AP4cwrapper {
+	margin: 0px 10px;
+}
+
+
+/*TRIGGER BORDERS*/
+.p7AP4-01.ap4-trig-border a.p7AP4-01 {
+	border-bottom: 1px solid #777;
+}
+.p7AP4-01.ap4-trig-border a.p7AP4-01:hover {
+	border-bottom: 1px solid #222;
+}
+.p7AP4-01.ap4-trig-border a.p7AP4-01.ap4last,
+.p7AP4-01.ap4-trig-border a.p7AP4-01.p7AP4_ext.ap4last {
+	border-bottom: none;
+} 
+.p7AP4-01.ap4-trig-space.ap4-trig-border a.p7AP4-01 {
+	border: 1px solid #222;
+}
+
+/*ROUNDED CORNERS*/
+.p7AP4-01.ap4-rounded .p7AP4-01.p7AP4root-wrapper {
+	border-radius: 10px;
+}
+.p7AP4-01.ap4-rounded.ap4-trig-space .p7AP4-01.p7AP4root-wrapper {
+	border-radius: 0px;
+}
+.p7AP4-01.ap4-rounded a.p7AP4-01.ap4first {
+	border-radius: 5px 5px 0px 0px;
+}
+.p7AP4-01.ap4-rounded a.p7AP4-01.ap4last {
+	border-radius: 0px 0px 5px 5px;
+}
+.p7AP4-01.ap4-rounded a.p7AP4-01.ap4last.ap4Trigs_down {
+	border-radius: 0px 0px 0px 0px;
+}
+.p7AP4-01.ap4-trig-space.ap4-rounded .p7AP4-01.p7AP4trig,
+.p7AP4-01.ap4-trig-space.ap4-rounded .p7AP4-01.p7AP4trig a {
+	border-radius: 5px;
+}
+.p7AP4-01.ap4-panel-border.ap4-rounded .p7AP4-01.p7AP4cwrapper.ap4last .p7AP4-01.p7AP4content {
+	border-radius: 0px 0px 5px 5px;
+}
+
+
+
+/*HEADINGS and PARAGRAPHS*/
+.p7AP4-01.p7ap4-content h1,
+.p7AP4-01.p7ap4-content h2,
+.p7AP4-01.p7ap4-contant h3,
+.p7AP4-01.p7ap4-content h4 {
+	margin: 0px;
+}
+.p7AP4-01.p7ap4-content p {
+	margin: 6px 0;
+}
+
+/*TOOLBAR*/
+.p7AP4-01 .p7AP4-01.ap4-toolbar {
+	background-color: #222;
+}
+.p7AP4-01 .p7AP4-01.ap4-toolbar a {
+	color: #AAA;
+}
+.p7AP4-01 .p7AP4-01.ap4-toolbar a:hover {
+	color: #FFF;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 700px) {}
