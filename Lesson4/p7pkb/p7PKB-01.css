@@ -1,0 +1,313 @@
+/*
+****************************
+ PVII Peekaboo
+ by Project Seven Development
+ www.projectseven.com
+ CSS Styles
+*****************************
+*/
+
+.p7PKB {
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	display: -webkit-box;
+	display: flex;
+	justify-content: center;
+}
+.p7PKB, .p7PKB div {
+	box-sizing: border-box;
+}
+
+.pkb-item {
+	-webkit-flex-grow: 0;
+	flex-grow: 0;
+	margin: 0px;
+	padding: 5px;
+	position: relative;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+}
+/*
+**************************
+       ARROW
+**************************
+*/
+.pkb-arrow {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	bottom: 0px;
+	z-index: 99;
+	background-repeat: no-repeat;
+	background-size: 25px 30px;
+	background-position: center 0px;
+	transition: background-size .35s linear 0s;
+}
+.pkb-section.open .pkb-arrow {
+	background-size: 0px 0px;
+}
+.p7PKB.pkb-arrow-light .pkb-arrow {
+	background-image: url(img/arrow-light.png);
+}
+.p7PKB.pkb-arrow-dark .pkb-arrow {
+	background-image: url(img/arrow-dark.png);
+}
+.pkb-section.boo-bottom .pkb-arrow,
+.pkb-section.boo-no-animate .pkb-arrow,
+.p7PKB.pkb-no-arrow .pkb-arrow {
+	display: none;
+}
+
+.pkb-section {
+	display: inline-flex;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.pkb-section.boo-bottom .pkb-boo {
+	position: static;
+}
+.pkb-image {
+	display: block;
+	margin: auto;
+	width: 100% !important;
+	height: auto !important;
+}
+.pkb-image.pkb-constrained {
+	width: auto !important;
+	height: auto !important;
+	max-width: 100%;
+}
+.pkb-content {
+	align-self: flex-end;
+	width: 100%;
+}
+.pkb-boo {
+	font-size: 90%;
+	transition: all ease .5s;
+	padding: 15px;
+	display: inline-flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: -100%;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+.pkb-section.open .pkb-boo {
+	bottom: 0px;
+}
+.pkb-section.boo-from-top .pkb-boo {
+	bottom: auto;
+	top: -100%;
+}
+.pkb-section.boo-from-top.open .pkb-boo {
+	bottom: auto;
+	top: 0px;
+}
+
+.boo-no-animate .pkb-boo {
+	transition: none;
+	position: absolute;
+	bottom: 0px;
+	height: auto;
+}
+.pkb-section.pkb-nat-height .pkb-boo {
+	height: auto;
+}
+.pkb-boo p {
+	margin: 6px 0px;
+}
+.pkb-boo img {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100%;
+} 
+
+/*
+***************************
+         ROUNDED
+     Class-driven by 
+ pkb-rounded class on root
+***************************
+*/
+.p7PKB.pkb-rounded,
+.p7PKB.pkb-rounded .pkb-section {
+	border-radius: 4px;
+}
+/*
+***************************
+         Borders
+ Class-driven by relevant 
+      classes on root
+***************************
+*/
+.p7PKB.pkb-borders-root {
+	border: 1px solid;
+}
+.p7PKB.pkb-borders-section .pkb-section {
+	border: 1px solid;
+}
+
+/*
+***************************
+    Matte (Root Only)
+ Class-driven by relevant 
+      class on root.
+   Text color drives
+  optional border colors
+***************************
+*/
+.p7PKB.pkb-no-matte {
+	padding: 0px;
+}
+.p7PKB.pkb-borders-root.pkb-no-matte {
+	padding: 5px;
+}
+.p7PKB.pkb-gray {
+	background-color: rgba(200,200,200,1.0);
+	color: #000;
+	padding: 5px;
+}
+.p7PKB.pkb-gray .pkb-boo {
+	background-color: rgba(160,160,160,0.88);
+	color: #000;
+}
+.p7PKB.pkb-white {
+	background-color: rgba(255,255,255,1.0);
+	color: #000;
+	padding: 5px;
+}
+.p7PKB.pkb-white .pkb-boo {
+	background-color: rgba(255,255,255,0.88);
+	color: #000;
+}
+.p7PKB.pkb-black {
+	background-color: rgba(0,0,0,1.0);
+	color: #FFF;
+	padding: 5px;
+}
+.p7PKB.pkb-black .pkb-boo {
+	background-color: rgba(0,0,0,0.88);
+	color: #FFF;
+}
+
+/*
+***************************
+       Info Rollup
+ Class-driven by relevant 
+     class on pkb-boo
+ Keyed on background color
+ Class black class is 
+ assigned to each pkb-boo
+ DIV by default. Change one
+ or ALL in UI. 
+***************************
+*/
+.pkb-content .pkb-boo.pkb-white {
+	background-color: rgba(255,255,255,0.88);
+	color: #000;
+}
+.pkb-content .pkb-boo.pkb-black {
+	background-color: rgba(0,0,0,0.88);
+	color: #FFF;
+}
+.pkb-content .pkb-boo.pkb-gray {
+	background-color: rgba(180,180,180,0.88);
+	color: #000;
+}
+
+
+/*
+*************************************
+    VERTICAL ALIGNMENT CLASSES
+     ASSIGNED TO BOO
+*************************************
+*/
+
+.pkb-boo.pkb-vTop {
+	justify-content: flex-start;
+}
+.pkb-boo.pkb-vCenter {
+	justify-content: center;
+}
+.pkb-boo.pkb-vBottom {
+	justify-content: flex-end;
+}
+
+/*
+*************************************
+    VERTICAL ALIGNMENT CLASSES
+     ASSIGNED TO ITEM
+*************************************
+*/
+
+.pkb-item.pkb-vTop {
+	justify-content: flex-start;
+}
+.pkb-item.pkb-vCenter {
+	justify-content: center;
+}
+.pkb-item.pkb-vBottom {
+	justify-content: flex-end;
+}
+
+/*
+*************************************
+      TEXT ALIGNMENT CLASSES
+     ASSIGNED TO BOO
+*************************************
+*/
+
+.pkb-boo.pkb-left {
+	text-align: left;
+}
+.pkb-boo.pkb-center {
+	text-align: center;
+}
+.pkb-boo.pkb-right {
+	text-align: right;
+}
+
+
+/*
+*********************************
+          NO SCRIPT
+  Addresses flaws in Dreamweaver
+         Design View
+*********************************
+*/
+.pkb-noscript .pkb-section {
+	overflow: visible;
+}
+.pkb-noscript div {
+	position: static;
+}
+.pkb-noscript .pkb-boo {position: static !important; width: auto !important;}
+.pkb-noscript img {
+	width: auto !important;
+	height: auto !important;
+	max-width: 100% !important;
+}
+.pkb-noscript .pkb-arrow {
+	display: none !important;
+}
+/*
+*************************************************************
+     Media Query: When screen is 600px wide, or less, 
+     multiple collumns of Peekaboo items will linearize 
+     into a single column. This is only applicable when 
+     you have created a Peekaboo instance comprised of 
+     multiple images.
+*************************************************************
+*/
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+	.pkb-item {flex-basis: 100% !important; }
+}
+
