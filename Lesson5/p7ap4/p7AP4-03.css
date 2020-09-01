@@ -1,0 +1,109 @@
+/* 
+  -----------------------------------
+  Accordion Panel Magic 4
+  by Project Seven Development
+  www.projectseven.com
+  Editable CSS Theme 03 (Splash)
+  -----------------------------------
+*/
+
+
+
+/*Content Color*/
+.p7AP4-03.p7AP4content {
+	background-color: #FFF;
+	color: #000;
+}
+
+/*TRIGGERS and TRIGGER COLORS*/
+.p7AP4-03.p7AP4trig a,
+.p7AP4-03.p7AP4trig h3,
+.p7AP4-03.p7AP4trig h4 {
+	font-size: 100%;
+	line-height: 1.25;
+}
+.p7AP4-03.p7AP4trig {
+	text-align: center;
+}
+a.p7AP4-03 {
+	padding: 15px 20px;
+}
+a.p7AP4-03 {
+	display: inline-block;
+	margin-top: 12px;
+	background-color: #222;
+	color: #FFF;
+	background-image: url(../p7ap4/img/p7AP4_east_white.png);
+	box-shadow: inset 0px 4px 4px rgba(255,255,255,0.05);
+}
+a.p7AP4-03.ap4Trigs_down {
+	margin-bottom: 8px !important;
+	padding: 15px 30px;
+}
+a.p7AP4-03:hover {
+	background-color: #749BA6;
+	color: #000;
+	background-image: url(../p7ap4/img/p7AP4_south_black.png);
+	box-shadow: inset 0px 28px 3px rgba(255,255,255,0.05);
+}
+a.p7AP4-03.ap4Trigs_down,
+a.p7AP4-03.ap4Trigs_down:hover {
+	background-image: url(../p7ap4/img/p7AP4_south_black.png);
+	color: #000;
+	background-color: #749BA6;
+}
+
+/*CURRENT MARK*/
+a.p7AP4-03.current_mark {
+	font-weight: bold;
+}
+
+/*EXTERNAL TRIGGER LINKS*/
+a.p7AP4-03.p7AP4_ext,
+a.p7AP4-03.p7AP4_ext.current_mark {
+	background-image: url(../p7ap4/img/p7AP4_page_black.png) !important;
+}
+a.p7AP4-03.p7AP4_ext:hover, 
+a.p7AP4-03.p7AP4_ext.current_mark:hover {
+	background-image: url(../p7ap4/img/p7AP4_page_white.png) !important;
+}
+
+
+/*BORDERS*/
+/*BORDER TREATMENTS*/
+/*CONTENT*/
+.p7AP4-03.ap4-panel-border .p7AP4-03.p7AP4content {
+	border: 1px solid #777;
+}
+
+/*TRIGGER BORDERS*/
+.p7AP4-03.ap4-trig-border a.p7AP4-03 {
+	border-bottom: 1px solid #000;
+}
+.p7AP4-03.ap4-trig-border a.p7AP4-03.ap4last,
+.p7AP4-03.ap4-trig-border a.p7AP4-03.p7AP4_ext.ap4last {
+	border-bottom: none;
+} 
+.p7AP4-03.ap4-trig-space.ap4-trig-border a.p7AP4-03 {
+	border: 1px solid #222;
+}
+
+/*ROUNDED CORNERS*/
+.p7AP4-03.ap4-rounded a.p7AP4-03,
+.p7AP4-03.ap4-panel-border.ap4-rounded .p7AP4-03.p7AP4content {
+	border-radius: 5px;
+}
+
+
+/*TOOLBAR*/
+.p7AP4-03 .p7AP4-03.ap4-toolbar {
+	background-color: #222;
+}
+.p7AP4-03 .p7AP4-03.ap4-toolbar a {
+	color: #AAA;
+}
+.p7AP4-03 .p7AP4-03.ap4-toolbar a:hover {
+	color: #FFF;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 700px) {}

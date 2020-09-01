@@ -1,0 +1,463 @@
+/* 
+  -----------------------------------
+  Image Rotator Magic 2
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 1 - Basic
+  -----------------------------------
+*/
+
+.p7ir2-list {
+	display: none;	
+}
+
+.p7IR2-01 {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.p7IR2-01.rounded {
+	overflow: hidden;
+	border-radius: 6px;
+}
+.p7IR2-01.shadow { box-shadow: 0px 0px 20px rgba(0,0,0,.65);}
+.p7IR2-01.border-dark { border: 1px solid rgba(0,0,0,.5);}
+.p7IR2-01.border-light { border: 1px solid rgba(255,255,255,.5);}
+
+.p7ir2-box-wrapper {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.p7ir2-box {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	position: relative;	
+	background-color: #000;
+}
+
+.p7ir2-slide {
+	position:relative;
+	padding:0;
+	margin:0;
+	width: 100%;
+}
+.p7ir2-link {
+	padding:0px;
+	margin: 0;
+	border:0;
+	display:block;
+}
+
+.p7ir2-image {
+	display: block;
+	border:0;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+
+
+/* ---------------- toolbar ------------------- */
+
+.p7ir2-toolbar {
+	background-color: #000;
+	zoom: 1;
+	padding: 6px 0px;
+	text-align: center;
+	font-size: 0px;
+	display: none; 
+}
+.p7ir2-toolbar.light {background-color: #FFF;}
+
+.p7ir2-toolbar:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.p7ir2-toolbar ul {
+	margin: 0 auto;
+	padding: 0;
+	display: inline-block;
+}
+.p7ir2-toolbar li {
+	list-style-type: none;
+	float: left;
+}
+.p7ir2-toolbar img {
+	border: 0;
+}
+.p7ir2-toolbar em {
+	display: none;
+}
+.p7ir2-toolbar a {
+	display: block;
+	width: 16px;
+	height: 28px;
+	outline: 0;
+	opacity: .7;
+	margin: 3px;
+	background-repeat: no-repeat;
+}
+.p7ir2-toolbar a:hover {
+	opacity: 1;
+}
+.p7ir2-toolbar a.previous {background-image: url(img/p7IR2-left-dark.png);}
+.p7ir2-toolbar.light a.previous {background-image: url(img/p7IR2-left-light.png);}
+
+.p7ir2-toolbar a.pause {background-image: url(img/p7IR2-pause-dark.png); width: 25px;}
+.p7ir2-toolbar.light a.pause {background-image: url(img/p7IR2-pause-light.png);}
+
+.p7ir2-toolbar a.pause.play {background-image: url(img/p7IR2-play-dark.png); width: 25px;}
+.p7ir2-toolbar.light a.pause.play {background-image: url(img/p7IR2-play-light.png);}
+
+.p7ir2-toolbar a.next {background-image: url(img/p7IR2-right-dark.png);}
+.p7ir2-toolbar.light a.next {background-image: url(img/p7IR2-right-light.png);}
+
+
+/* --------------------- Paginator -------------------------------- */
+.p7ir2-paginator {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #000;
+	text-align: center;
+	font-size: 0px;
+	display: none; 
+}
+.p7ir2-paginator.light { background-color: #FFF; }
+
+.p7ir2-paginator:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.p7ir2-paginator ul {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+.p7ir2-paginator li {
+	list-style-type: none;
+	margin-right: 6px;
+	float: left;
+}
+.p7ir2-paginator a {
+	text-decoration: none;
+	display: block;
+	outline: none;
+	background-color: #999;
+	width: 12px;
+	height: 12px;
+	overflow: hidden;
+}
+.p7ir2-paginator.light a { background-color: #000;}
+.p7ir2-paginator.circle a {
+	border: none;
+	border-radius: 50%;
+}
+.p7ir2-paginator a:hover, .p7ir2-paginator a:focus { background-color: #FFF; }
+.p7ir2-paginator.light a:hover, .p7ir2-paginator.light a:focus { background-color: #39C; }
+.p7ir2-paginator a.down {
+	background-color: #FFF;
+	cursor: default;
+}
+.p7ir2-paginator.light a.down {background-color: #39C;}
+.p7ir2-paginator a.play, .p7ir2-paginator a.pause {
+	margin-right: 0px;
+	margin-left: 12px;
+	transform: scale(1.5);
+	background-image: url(img/p7IR2-pause-light.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: contain;
+	background-color: transparent !important;
+	border: none;
+	opacity: .7;
+}
+.p7ir2-paginator.dark a.play, .p7ir2-paginator.dark a.pause {background-image: url(img/p7IR2-pause-dark.png);}
+.p7ir2-paginator a.play {background-image: url(img/p7IR2-play-light.png);}
+.p7ir2-paginator.dark a.play {background-image: url(img/p7IR2-play-dark.png);}
+
+.p7ir2-paginator a.play:hover, .p7ir2-paginator a.play:focus, .p7ir2-paginator a.pause:hover, .p7ir2-paginator a.pause:focus { 
+	background-color: transparent !important;
+	opacity: 1;
+}
+
+/* -------------------- Large Previous/Next Arrows ---------------- */
+
+/*Large Previous and Next Arrows*/
+.p7ir2-arrows {
+	display: none;
+}
+.arrow-left, .arrow-right {
+	position: absolute;
+	top: 40%;
+	z-index: 5;
+}
+.arrow-left {left: 10px;}
+.arrow-right {right: 10px;}
+
+.arrow-left a,
+.arrow-right a {
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 64px; 
+	line-height: 1px;
+	opacity: .75;
+}
+.arrow-left a:hover,
+.arrow-right a:hover {
+	opacity: 1;
+}
+.p7ir2-arrows.dark a {
+	color: #000;
+	text-shadow: 1px 1px 10px #FFF;
+}
+.p7ir2-arrows.light a {
+	color: #FFF;
+	text-shadow: 1px 1px 10px #000;
+}
+
+/*   <div class="p7ir2_desc top-left trans-pivot">  */
+
+/* --------------------- Description presentation rules ----------------------------- */
+.p7ir2-description {
+	position: absolute;
+	border-radius: 6px;
+	max-width: 40%;
+	max-height: 60%;
+	overflow: auto;
+	background-color: #222;
+	background: rgba(0, 0, 0, .5);
+	border: 1px solid #000;
+	color: #FFF;
+	font-size: 2vw;
+	padding: 12px;
+}
+
+/* Descrption Position Rules */
+
+.p7ir2-description.under-image {
+	max-width: none;
+	max-height: none;
+	padding: 10px;
+	font-size: 0.9em;
+	text-align: left;
+	position: relative;
+}
+
+.p7ir2-description.top-left {
+	top: 10%;
+	left: 200px;
+}
+.p7ir2-description.top-right {
+	top: 15%;
+	right: 20px;
+	left: auto;
+	bottom: auto;
+}
+.p7ir2-description.bottom-left {
+	top: auto;
+	bottom: 15%;
+	left: 20px;
+	right: auto;
+}
+.p7ir2-description.bottom-right {
+	top: auto;
+	bottom: 15%;
+	left: auto;
+	right: 20px;
+}
+
+
+/* Slide from Left 3-State animations
+   for left aligned descriptions */
+.p7ir2-description.trans-left {
+	-webkit-transition: all 1.0s ease .8s;
+	transition: all 1.0s ease .8s;
+	opacity: 0;
+}
+.p7ir2-description.top-left.trans-left,
+.p7ir2-description.bottom-left.trans-left {
+	margin-left: -300px;
+}
+.current-slide .p7ir2-description.top-left.trans-left,
+.current-slide .p7ir2-description.bottom-left.trans-left {
+	margin-left: 0;
+	opacity: 1;
+}
+.closed-slide .p7ir2-description.top-left.trans-left,
+.closed-slide .p7ir2-description.bottom-left.trans-left {
+	margin-left: 300px;
+	opacity: 0;
+	-webkit-transition-delay: .1s;
+	transition-delay: .1s;
+}
+/*Under Image Only*/
+.p7ir2-description.under-image.trans-left {
+	left: -300px;
+}
+.current-slide .p7ir2-description.under-image.trans-left {
+	left: 0;
+	opacity: 1;
+}
+.closed-slide .p7ir2-description.under-image.trans-left {
+	left: 300px;
+	opacity: 0;
+	-webkit-transition-delay: .1s;
+	transition-delay: .1s;
+}
+
+/* Slide from Left 3-State animations
+   for right aligned descriptions */
+.p7ir2-description.top-right.trans-left,
+.p7ir2-description.bottom-right.trans-left {
+	margin-right: 300px;
+}
+.current-slide .p7ir2-description.top-right.trans-left,
+.current-slide .p7ir2-description.bottom-right.trans-left {
+	margin-right: 0px;
+	opacity: 1;
+}
+.closed-slide .p7ir2-description.top-right.trans-left,
+.closed-slide .p7ir2-description.bottom-right.trans-left {
+	margin-right: -300px;
+	opacity: 0;
+	-webkit-transition-delay: .1s;
+	transition-delay: .1s;
+}
+
+/* Slide from right 3-State animations
+   for left aligned descriptions */
+.p7ir2-description.trans-right {
+	-webkit-transition: all 1.0s ease .8s;
+	transition: all 1.0s ease .8s;
+	opacity: 0;
+}
+.p7ir2-description.top-left.trans-right,
+.p7ir2-description.bottom-left.trans-right {
+	margin-left: 300px;
+}
+.current-slide .p7ir2-description.top-left.trans-right,
+.current-slide .p7ir2-description.bottom-left.trans-right {
+	margin-left: 0;
+	opacity: 1;
+}
+.closed-slide .p7ir2-description.top-left.trans-right,
+.closed-slide .p7ir2-description.bottom-left.trans-right {
+	margin-left: -300px;
+	opacity: 0;
+	-webkit-transition-delay: .1s;
+	transition-delay: .1s;
+}
+
+/*Under Image Only*/
+
+.p7ir2-description.under-image.trans-right {
+	left: 600px;
+}
+.current-slide .p7ir2-description.under-image.trans-right {
+	left: 0;
+	opacity: 1;
+}
+.closed-slide .p7ir2-description.under-image.trans-right {
+	left: -600px;
+	opacity: 0;
+	-webkit-transition-delay: .1s;
+	transition-delay: .1s;
+}
+
+
+/* Slide from right 3-State animations
+   for right aligned descriptions */
+.p7ir2-description.top-right.trans-right,
+.p7ir2-description.bottom-right.trans-right {
+	margin-right: -300px;
+}
+.current-slide .p7ir2-description.top-right.trans-right,
+.current-slide .p7ir2-description.bottom-right.trans-right {
+	margin-right: 0px;
+	opacity: 1;
+}
+.closed-slide .p7ir2-description.top-right.trans-right,
+.closed-slide .p7ir2-description.bottom-right.trans-right {
+	margin-right: 300px;
+	opacity: 0;
+	-webkit-transition-delay: .1s;
+	transition-delay: .1s;
+}
+
+/* 3-State Pivot animation */
+.p7ir2-description.trans-pivot {
+	-webkit-transition: all linear 0.5s .8s;
+	transition: all linear 0.5s .8s;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	opacity: 0;
+	margin-top: -160px;
+}
+.current-slide .p7ir2-description.trans-pivot {
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	margin-top: 0px;
+	opacity: 1;
+	z-index: 999 !important;
+}
+.closed-slide .p7ir2-description.trans-pivot {
+	margin-top: -160px;
+	opacity: 0;
+	-webkit-transition-delay: .25s;
+	transition-delay: .25s;
+}
+
+/*Under Image Only*/
+.p7ir2-description.under-image.trans-pivot {
+	-webkit-transition: all linear 0.5s .8s;
+	transition: all linear 0.5s .8s;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	opacity: 0;
+	margin-top: 0px;
+	top: -160px;
+}
+.current-slide .p7ir2-description.under-image.trans-pivot {
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	margin-top: 0px;
+	top: 0px;
+	opacity: 1;
+	z-index: 999 !important;
+}
+.closed-slide .p7ir2-description.under-image.trans-pivot {
+	margin-top: 0px;
+	top: 0px;
+	opacity: 0;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	-webkit-transition-delay: .25s;
+	transition-delay: .25s;
+}
+
+
+/* --------------------- loading image ---------------------------- */
+
+.p7ir2-loading {
+    background-color: #fff;
+    background-image: url("img/p7ir2_loading.gif");
+    border-radius: 8px;
+    box-shadow: 0 0 30px #000;
+    display: none;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    z-index: 99999999;
+}
