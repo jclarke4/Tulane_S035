@@ -99,7 +99,7 @@
         <a class="nav-link dropdown-toggle" href="../Lesson2/L2_T0_00.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Lesson 2
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown2"><strong><a href="..Lesson1/L2_T0_00.html">Opioid Overdose Reversal with Naloxone</a> </strong>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown2"><strong><a href="..Lesson1/L2_T0_00.html">Opioid Overdose Reversal with Naloxone</a></strong>
           <a class="dropdown-item" href="../Lesson2/L2_T1_01.html">Impacts of Addiction</a>
           <a class="dropdown-item" href="../Lesson2/L2_T2_01.html">Signs of an Opioid Overdose</a>
           <a class="dropdown-item" href="../Lesson2/L2_T3_01.html">Individual Risk for Overdose</a>
@@ -116,7 +116,7 @@
         <a class="nav-link dropdown-toggle" href="../Lesson3/L3_T0_00.html" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Lesson 3
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown3"><strong><a href="..Lesson3/L3_T0_00.html"strong>Naloxone Laws & Regulations</a></strong>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown3"><strong><a href="..Lesson3/L3_T0_00.html">Naloxone Laws & Regulations</a></strong>
           <div class="dropdown-divider"></div>
 			<h6 class="dropdown-header">Naloxone Laws & Regulations</h6><a class="dropdown-item" href="../Lesson3/L3_T1_01.html">Naloxone Access & Administration</a>
           <a class="dropdown-item" href="../Lesson3/L3_T1_02.html">Prescription Monitoring Program (PMP)</a>
@@ -148,7 +148,7 @@
         </div>
 		</li>
 		<li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="../Lesson5/L5_T0_00.html" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="../Lesson5/L5_T0_00.html" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Lesson 5
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown4"><strong><a href="..Lesson5/L5_T0_00.html">Harm Reduction</a></strong>
@@ -347,8 +347,7 @@
 <li>Terrie, Y. C. (2011, June 13). An Overview of Opioids. Retrieved from Pharmacy Times: <a href="https://www.pharmacytimes.com/publications/issue/2011/June2011/An-Overview-of-Opioids">https://www.pharmacytimes.com/publications/issue/2011/June2011/An-Overview-of-Opioids</a></li>
 <li>The National Alliance of Advocates for Buprenorphine Treatment. (2008). The Words We Use Matter: Reducing Stigma Through Language. Retrieved from The National Alliance of Advocates for Buprenorphine Treatment: <a href="https://www.naabt.org/documents/NAABT_Language.pdf">https://www.naabt.org/documents/NAABT_Language.pdf</a></li>
 <li>United States Drug Enforcement Administration (DEA). (n.d.). Drug Scheduling. Retrieved from United States Drug Enforcement Agency (DEA): <a href="https://www.dea.gov/drug-scheduling">https://www.dea.gov/drug-scheduling</a></li>
-West, B., & Varacallo, M. (2019). Good Samaritan Laws. StatPearls. Retrieved from <a href="https://www.ncbi.nlm.nih.gov/books/NBK542176/">https://www.ncbi.nlm.nih.gov/books/NBK542176/</a></li>
-</li>
+<li>West, B., & Varacallo, M. (2019). Good Samaritan Laws. StatPearls. Retrieved from <a href="https://www.ncbi.nlm.nih.gov/books/NBK542176/">https://www.ncbi.nlm.nih.gov/books/NBK542176/</a></li>
 									</ul>
 								</div>
 							</div>
