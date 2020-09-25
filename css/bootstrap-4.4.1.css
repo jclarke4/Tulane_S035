@@ -129,7 +129,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 small {
@@ -9944,7 +9944,9 @@ button.bg-dark:focus {
 }
 
 .text-center {
-  text-align: center !important;
+    text-align: center;
+
+
 }
 
 @media (min-width: 576px) {
