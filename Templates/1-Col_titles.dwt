@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/1-Col.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
   <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,11 +18,11 @@
   <!-- Custom CSS-->
   <link href="../css/custom.css" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-<!-- InstanceBeginEditable name="head" -->
-  <!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 <!-- START TEMPLATE PARAMETERS -->
-  <!-- InstanceParam name="course_long_name" type="text" value="Revive. Survive. OverDose Prevention" -->
-  <!-- InstanceParam name="course_name_subheading" type="text" value="for Pharmacists" -->
+  <!-- TemplateParam name="course_long_name" type="text" value="Revive. Survive. OverDose Prevention" -->
+  <!-- TemplateParam name="course_name_subheading" type="text" value="for Pharmacists" -->
 <!-- END TEMPLATE PARAMETERS -->
  
 	 
@@ -67,7 +67,7 @@
 		  <div class="dropdown-menu" aria-labelledby="navbarDropdowna">
           <a class="dropdown-item" href="../L0_T1_01.html">Welcome to the Course </a>
           <a class="dropdown-item" href="../L0_T1_02.html">Learning Objectives</a>
-          <a class="dropdown-item" href="../L0_T1_03.html">About the Authors</a>
+          <a class="dropdown-item" href="../L0_T1_03.html">About the Author</a>
 		  <a class="dropdown-item" href="../L0_T2_01.html">Technical Requirements</a>
 	      <a class="dropdown-item" href="../L0_T2_02.html">Navigational Tips</a>
 		   <a class="dropdown-item" href="../L0_T2_03.html">Additional Assistance</a>
@@ -75,29 +75,29 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="L1_T0_00.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="../Lesson1/L1_T0_00.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Lesson 1
         </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown1"><strong><a href="L1_T0_00.html">The Opioid Epidemic</a></strong>
-          <a class="dropdown-item" href="L1_T1_01.html">Impacts of Addiction</a>
+        	        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"><strong><a href="../Lesson1/L1_T0_00.html">The Opioid Epidemic</a></strong>
+          <a class="dropdown-item" href="../Lesson1/L1_T1_01.html">Impacts of Addiction</a>
 			<div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="L1_T2_01.html">Opioid Consumption Worldwide</a>
+          <a class="dropdown-item" href="../Lesson1/L1_T2_01.html">Opioid Consumption Worldwide</a>
 			<div class="dropdown-divider"></div>
 			<h6 class="dropdown-header">Opioid Use Disorder</h6>
-				<a class="dropdown-item" href="L1_T3_01.html">Opioids Affect Brain Processes</a>
-			  <a class="dropdown-item" href="L1_T3_02.html">Chronic Exposure to Opioids</a>
+				<a class="dropdown-item" href="../Lesson1/L1_T3_01.html">Opioids Affect Brain Processes</a>
+			  <a class="dropdown-item" href="../Lesson1/L1_T3_02.html">Chronic Exposure to Opioids</a>
 				<div class="dropdown-divider"></div>	  
 			<h6 class="dropdown-header">Overdose is a Leading Cause of Injury Death</h6>
-			<a class="dropdown-item" href="L1_T4_01.html">Leading Cause of Injury Death Nationwide</a>
-			<a class="dropdown-item" href="L1_T4_02.html">Accidental Drug Deaths in Louisiana</a>
-			<a class="dropdown-item" href="L1_T4_03.html">Accidental Drug Deaths in New Orleans - By Opiate</a>
-			<a class="dropdown-item" href="L1_T4_04.html">Accidental Drug-Related Deaths in New Orleans - By Demographics</a>
+			<a class="dropdown-item" href="../Lesson1/L1_T4_01.html">Leading Cause of Injury Death Nationwide</a>
+			<a class="dropdown-item" href="../Lesson1/L1_T4_02.html">Accidental Drug Deaths in Louisiana</a>
+			<a class="dropdown-item" href="../Lesson1/L1_T4_03.html">Accidental Drug Deaths in New Orleans - By Opiate</a>
+			<a class="dropdown-item" href="../Lesson1/L1_T4_04.html">Accidental Drug-Related Deaths in New Orleans - By Demographics</a>
 		  <div class="dropdown-divider"></div>
 			<h6 class="dropdown-header">Opioid Epidemic Familiarity</h6>
-			<a class="dropdown-item" href="L1_T5_01.html">Revive. Survive. OverDose Prevention Needs Assessment</a>
-			<a class="dropdown-item" href="L1_T5_02.html">Opioid Epidemic Familiarity</a>
+			<a class="dropdown-item" href="../Lesson1/L1_T5_01.html">Revive. Survive. OverDose Prevention Needs Assessment</a>
+			<a class="dropdown-item" href="../Lesson1/L1_T5_02.html">Opioid Epidemic Familiarity</a>
 			<div class="dropdown-divider"></div>
-			<a class="dropdown-item" href="L1_T6_01.html">Activity/Knowledge Check</a>
+			<a class="dropdown-item" href="../Lesson1/L1_T6_01.html">Activity/Knowledge Check</a>
         </div>
       </li>
         <li class="nav-item dropdown">
@@ -175,7 +175,7 @@
 			<div class="dropdown-divider"></div>
 			<a class="dropdown-item" href="../Lesson5/L5_T4_01.html">Activity/Knowledge Check</a>
         </div>
-		</li>
+      </li>
 		<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="../c1.html" id="navbarDropdownz" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			Course Conclusion
@@ -201,44 +201,23 @@
 			<div class="col-md-12">	  
 			  <nav aria-label="breadcrumb">
 			    <ol class="breadcrumb">
-			      <li class="breadcrumb-item"><a id="parentpage_breadcrumb"><!-- InstanceBeginEditable name="lesson_name" -->The Opioid Epidemic<!-- InstanceEndEditable --></a></li>
-			      <li class="breadcrumb-item"><a id="currentpage_breadcrumb"><!-- InstanceBeginEditable name="topic_title" -->Overdose is a Leading Cause of Injury Death<!-- InstanceEndEditable --></a></li>
-			      <li class="breadcrumb-item active" aria-current="page"><!-- InstanceBeginEditable name="page_number" -->Page 4<!-- InstanceEndEditable --></li>
+			      <li class="breadcrumb-item"><a id="parentpage_breadcrumb"><!-- TemplateBeginEditable name="lesson_name" -->ADD LESSON NAME<!-- TemplateEndEditable --></a></li>
+			      <li class="breadcrumb-item"><a id="currentpage_breadcrumb"><!-- TemplateBeginEditable name="topic_title" -->ADD TOPIC TITLE <!-- TemplateEndEditable --></a></li>
+			      <li class="breadcrumb-item active" aria-current="page"><!-- TemplateBeginEditable name="page_number" -->ADD PAGE NUMBER<!-- TemplateEndEditable --></li>
 		        </ol>
 	        </nav>
             </div>
 		
 		
 		</div>
-<!--- END BREADCRUMB -->		
-
-<!--- START AUDIO PLAYER -->
-		<div class="row"><!-- InstanceBeginEditable name="Audio" --><iframe src="https://sphtmid.wp.tulane.edu/wp-admin/admin-ajax.php?action=h5p_embed&id=33" width="958" height="65" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://sphtmid.wp.tulane.edu/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script><!-- InstanceEndEditable --></div>
-
-<!--- END AUDIO PLAYER -->
-				
-<!--- START HEADLINE -->	
-		 <div class="row animated fadeInLeft delay-2s p-4">
-        <div class="col-md-8 text-center text-md-left">
-			<h3 class="headline"><!-- InstanceBeginEditable name="Course Headline" -->Accidental Drug-Related Deaths in New Orleans – By Demographics<!-- InstanceEndEditable --> </h3>
-			 </div>
-          <div class="col-md-4">
-			    <div class="pageofX text-center text-md-right"><!-- InstanceBeginEditable name="PageofX" -->4 of 4<!-- InstanceEndEditable --></div>	
-			 </div>
-		</div>
-<!--- END HEADLINE -->
-		
+<!--- END BREADCRUMB -->						
 <!--- START MAIN CONTENT -->
      <div class="row animated p-4 mb-3 fadeInLeft delay-2s">
         <div class="col-md-12">
 
-          <!-- InstanceBeginEditable name="Main Content" -->
-		 <p>Of the 208 accidental drug-related deaths that occurred in 2018:
-			 <ul><li>80% (166) were male and 20% (43) were female.</li>
-				 <li>50% (105) were White, 48% (100) were African-American, and 2% (3) were Hispanic in 2018.</li>
-				 <li>African-Americans represented 52% (86) in 2017, 45% (75) in 2016, and 28% (23) in 2015.</li>
-				 </ul></p>
-          <img src="images/L1T404/accidentaldrugdeaths2018.png" class="img-fluid" alt=""/> <!-- InstanceEndEditable --> 
+          <!-- TemplateBeginEditable name="Main Content" -->
+		  <h1> ADD MAIN CONTENT </h1>
+          <!-- TemplateEndEditable --> 
 		  </div>
 		</div>
   
@@ -250,17 +229,26 @@
 					<div class="btn-toolbar" role="toolbar">
 <div class="mx-auto justify-content-center">
    <div class="btn-group" role="group">
-	   <a href="../starthere.html"> <button type="button" class="btn btn-primary btn-lg rounded-pill">first</button></a><!-- InstanceBeginEditable name="back" -->
-	   <a href="L1_T4_03.html"><button type="button" class="btn btn-primary btn-lg rounded-pill">&#60;&#60;</button></a><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="next" --><a href="L1_T5_01.html"><button type="button" class="btn btn-primary btn-lg rounded-pill">&#62;&#62;</button></a><!-- InstanceEndEditable -->
+	   <a href="../starthere.html"> <button type="button" class="btn btn-primary btn-lg rounded-pill">first</button></a><!-- TemplateBeginEditable name="back" -->
+	   <a href="#"><button type="button" class="btn btn-primary btn-lg rounded-pill">&#60;&#60;</button></a><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="next" --><a href="#"><button type="button" class="btn btn-primary btn-lg rounded-pill">&#62;&#62;</button></a><!-- TemplateEndEditable -->
      <a href="../c1_03.html"><button type="button" class="btn btn-primary btn-lg rounded-pill">last</button></a>
    </div>
 						</div></div></div>
+		
 			<div class="col-md-12">
+			
 			<div class="card row mx-auto w-75 card-body shadow p-3 mb-5 rounded border" id="list">
-			</div>
-	    </div> 
-			</div>	
-		      <div class="container-fluid row animated fadeinUp delay-1s">
+				
+				</div>
+	
+
+			
+    </div> 
+			
+		
+	</div>	
+		
+	<div class="container-fluid row animated fadeinUp delay-1s">
 
 <div class="col-md-12">
 
@@ -299,10 +287,10 @@
 								<div class="card-body">
 									<ul>
 										<li><a href="https://www.ohlinc.org/download/attachment/15471" title="OHL Revive Survive OverDose Prevention Toolkit 2019" target="_blank">OHL Revive Survive OverDose Prevention Toolkit 2019</a> </li>
-										<li><a href="../downloads/OHL%20Resource%20Guide.pdf" title="OHL Resource Guide.pdf" target="_blank">OHL Resource Guide</a> </li>
-										<li><a href="../downloads/OHL%20Referral%20Procedure.pdf" title="OHL Referral Procedure" target="_blank">OHL Referral Procedure</a> </li>
-										<li><a href="../downloads/LA%20Naloxone%20Standing%20Order%202019.pdf" title="LA Naloxone Standing Order 2019.pdf" target="_blank">LA Naloxone Standing Order 2019</a></li>
-										<li><a href="../downloads/OHL%20Language%20Matters%20Handout.pdf" title="OHL Language Matters Handout.pdf" target="_blank">OHL Language Matters Handout</a></li>
+										<li><a href="../downloads/OHL Resource Guide.pdf" title="OHL Resource Guide.pdf" target="_blank">OHL Resource Guide</a> </li>
+										<li><a href="../downloads/OHL Referral Procedure.pdf" title="OHL Referral Procedure" target="_blank">OHL Referral Procedure</a> </li>
+										<li><a href="../downloads/LA Naloxone Standing Order 2019.pdf" title="LA Naloxone Standing Order 2019.pdf" target="_blank">LA Naloxone Standing Order 2019</a></li>
+										<li><a href="../downloads/OHL Language Matters Handout.pdf" title="OHL Language Matters Handout.pdf" target="_blank">OHL Language Matters Handout</a></li>
 									</ul>
 								</div>
 							</div>
@@ -419,8 +407,6 @@
 								<p>Adobe Acrobat Reader is required to access some documents in this course. If you need to download a free copy of Acrobat Reader, <a href="https://get.adobe.com/reader/" target="_blank">click here</a>.</p>
 								<p><strong>Internet Connection Speed</strong></p>
 								<p>A minimum download speed of 1.5 Mbps is recommended for an optimal experience, which is commonly the speed associated with a basic DSL or a cellular/satellite connection. A faster connection, such as cable or fiber service, with further enhance your online experience. A Wi-Fi connection is generally acceptable, but it is dependent upon one of the two services mentioned above. You can check your internet connection speed at <a href="https://www.speedtest.net/" target="_blank">https://www.speedtest.net</a>.</p>
-								<p><stron>Bookmark/Resume Function</stron></p>
-								<p>Some users of Internet Explorer may encounter inconsistent results using the Bookmark/Resume function that appears on the first screen in the course after initial access. If you experience problems using Internet Explorer, consider using Chrome, Firefox, or Safari as your browser.</p>
 								<p><i><sup>1</sup>macOS 10.13 (High Sierra) will no longer be supported as of November 2020.</i></p>
 							</div>
       					</div>
@@ -450,9 +436,8 @@
 	</div>
 </div>
 </div>
-		<footer></footer> 
-		<img src="../images/OHL%20Logo.png" alt="OHL Logo" class="img-fluid mx-auto d-block" />
-		
+		 <footer></footer> 
+		<img src="../images/OHL Logo.png" alt="OHL Logo" class="img-fluid mx-auto d-block" />
 <!--- END FOOTER --> 
     </div>
 	 
@@ -468,4 +453,4 @@
 	<script type="module" src="../index.js"></script>
 	<script type="text/javascript" src="../js/promised-pagination.js"></script>
 </body>
-<!-- InstanceEnd --></html>
+</html>
